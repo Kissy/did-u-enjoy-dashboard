@@ -1,0 +1,62 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.feedback-list {
+    width: 512px;
+    padding: 8px 0;
+    line-height: 18px;
+    overflow: hidden;
+    list-style-type: none;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+}
+
+.feedback-list li {
+    padding: 16px;
+    height: 40px;
+}
+
+.client {
+    line-height: 18px;
+    color: rgba(0, 0, 0, .54);
+}
+
+.rate {
+    display: inline-block;
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin-right: 16px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.rate-2 {
+    background-image: url(../img/2.png);
+}
+
+.rate-3 {
+    background-image: url(../img/3.png);
+}
+
+.type {
+    display: inline-block;
+    float: right;
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.type-car {
+    background-image: url(../img/ic_directions_car_black_24dp_1x.png);
+}
+.type-flight {
+    background-image: url(../img/ic_flight_black_24dp_1x.png);
+}
+.type-hotel {
+    background-image: url(../img/ic_hotel_black_24dp_1x.png);
+}
+.type-train {
+    background-image: url(../img/ic_train_black_24dp_1x.png);
+}
