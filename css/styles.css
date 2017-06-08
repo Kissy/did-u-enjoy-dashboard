@@ -3,8 +3,8 @@ body {
 }
 
 .feedback-list {
-    width: 256px;
-    padding: 8px 0;
+    width: 200px;
+    padding: 0;
     line-height: 18px;
     list-style-type: none;
     border-radius: 2px;
@@ -34,13 +34,17 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
 }
-
-.rate-2 {
-    background-image: url(../img/2.png);
+.rate-1 {
+    background-image: url(../img/smiley/1.png);
 }
-
+.rate-2 {
+    background-image: url(../img/smiley/2.png);
+}
 .rate-3 {
-    background-image: url(../img/3.png);
+    background-image: url(../img/smiley/3.png);
+}
+.rate-4 {
+    background-image: url(../img/smiley/4.png);
 }
 
 .type {
@@ -51,16 +55,25 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
 }
-
-.type-car {
-    background-image: url(../img/ic_directions_car_black_24dp_1x.png);
+.type-air {
+    background-image: url(../img/item/air.png);
 }
-.type-flight {
-    background-image: url(../img/ic_flight_black_24dp_1x.png);
+.type-car {
+    background-image: url(../img/item/car.png);
 }
 .type-hotel {
-    background-image: url(../img/ic_hotel_black_24dp_1x.png);
+    background-image: url(../img/item/hotel.png);
 }
 .type-train {
-    background-image: url(../img/ic_train_black_24dp_1x.png);
+    background-image: url(../img/item/train.png);
+}
+
+.loading {
+    text-align: center;
+}
+.loading i {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: url(../img/spinner.gif) no-repeat center;
 }
